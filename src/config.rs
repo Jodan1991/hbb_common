@@ -2431,8 +2431,8 @@ pub mod keys {
         "enable-open-new-connections-in-tabs";
     pub const OPTION_TEXTURE_RENDER: &str = "use-texture-render";
     pub const OPTION_ALLOW_D3D_RENDER: &str = "allow-d3d-render";
-    pub const OPTION_ENABLE_CHECK_UPDATE: &str = "enable-check-update";
-    pub const OPTION_ALLOW_AUTO_UPDATE: &str = "allow-auto-update";
+    pub const OPTION_ENABLE_CHECK_UPDATE: &str = "disable-check-update";
+    pub const OPTION_ALLOW_AUTO_UPDATE: &str = "disable-auto-update";
     pub const OPTION_SYNC_AB_WITH_RECENT_SESSIONS: &str = "sync-ab-with-recent-sessions";
     pub const OPTION_SYNC_AB_TAGS: &str = "sync-ab-tags";
     pub const OPTION_FILTER_AB_BY_INTERSECTION: &str = "filter-ab-by-intersection";
@@ -2491,7 +2491,7 @@ pub mod keys {
     pub const OPTION_REMOVE_PRESET_PASSWORD_WARNING: &str = "remove-preset-password-warning";
     pub const OPTION_HIDE_SECURITY_SETTINGS: &str = "hide-security-settings";
     pub const OPTION_HIDE_NETWORK_SETTINGS: &str = "hide-network-settings";
-    pub const OPTION_HIDE_SERVER_SETTINGS: &str = "hide-server-settings";
+    pub const OPTION_HIDE_SERVER_SETTINGS: &str = "able-hide-server-settings";
     pub const OPTION_HIDE_PROXY_SETTINGS: &str = "hide-proxy-settings";
     pub const OPTION_HIDE_REMOTE_PRINTER_SETTINGS: &str = "hide-remote-printer-settings";
     pub const OPTION_HIDE_WEBSOCKET_SETTINGS: &str = "hide-websocket-settings";
